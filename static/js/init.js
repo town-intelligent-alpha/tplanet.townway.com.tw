@@ -99,7 +99,7 @@ function navbar(group) {
   // home logo href
   if (group == "200" || group == "201" ) {
       document.getElementById("index_logo").href =
-      "/backend/admin_agent_dashboard.html";
+      "/index.html";
 
     try {
       var obj_account_status = document.getElementById("account_status");
